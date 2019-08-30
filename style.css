@@ -1,0 +1,92 @@
+body {
+    /* background-image: linear-gradient(to left, #1a1317, #361c2f, #51254b, #6c306c, #833c91, #8b45a7, #904fbe, #935ad6, #8a60e0, #7f67e9, #716df2, #5f73fb); */
+    background-image: black; 
+    position: relative; 
+}
+
+.navbar { 
+    background-image: linear-gradient(to left, #1a1317, #361c2f, #51254b, #6c306c, #833c91, #8b45a7, #904fbe, #935ad6, #8a60e0, #7f67e9, #716df2, #5f73fb);
+    border: solid 1px; 
+    border-bottom-color: #BF1A79; 
+    margin-bottom: 1px; 
+    position: fixed; 
+}
+
+.nav-link{
+    color: white; 
+}
+
+.navbar-brand {
+    color: white; 
+}
+
+
+.button-group {
+    position: fixed; 
+    height: 100vh; 
+
+    
+}
+
+.list-group {
+    height: 100vh; 
+    background-color: black; 
+}
+
+footer {
+    position: fixed; 
+}
+
+.navbar-toggler{
+    background-color: white; 
+    color: white; 
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white; 
+}
+
+.carousel {
+    align-content: bottom; 
+    margin-left: 50px; 
+    margin-top: 10px; 
+    
+    
+}
+
+#sidenav {
+    margin: 0px; 
+    border: solid 0px; 
+    background-image: linear-gradient(black); 
+}
+
+.list-group-item, .list-group-item-action {
+    color: black; 
+    background-color: red; 
+
+}
+
+.li {
+    background-color: red; 
+}
+
+.nav-item {
+    /* background-color: purple;  */
+    border: solid 1px; 
+    border-color: white;  
+}
+
+button {
+    color: red; 
+    background-color: blue; 
+}
+
+button:hover{
+    color: blue; 
+}
+
+button {
+    color: royalblue; 
+    background-color: #904fbe; 
+}
+
