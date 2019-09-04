@@ -1,7 +1,8 @@
 body {
-    /* background-image: linear-gradient(to left, #1a1317, #361c2f, #51254b, #6c306c, #833c91, #8b45a7, #904fbe, #935ad6, #8a60e0, #7f67e9, #716df2, #5f73fb); */
-    background-image: black; 
+    background-image: linear-gradient(to left, #1a1317, #361c2f, #51254b);
     position: relative; 
+    background-color: black; 
+    color: black; 
 }
 
 .navbar { 
@@ -54,11 +55,7 @@ footer {
     
 }
 
-#sidenav {
-    margin: 0px; 
-    border: solid 0px; 
-    background-image: linear-gradient(black); 
-}
+
 
 .list-group-item, .list-group-item-action {
     color: black; 
@@ -81,12 +78,43 @@ button {
     background-color: blue; 
 }
 
-button:hover{
-    color: blue; 
+#button:hover{
+    background-color: green; 
 }
 
-button {
-    color: royalblue; 
-    background-color: #904fbe; 
+#button {
+    background: linear-gradient(to left, #1a1317, #361c2f, #51254b, #6c306c, #833c91, #8b45a7, #904fbe, #935ad6, #8a60e0, #7f67e9, #716df2, #5f73fb);
+    color: black; 
+    font-family: 'Megrim', cursive;
+    font-weight: bold; 
+    
+}
+
+#front {
+    color: black; 
+    font-family: 
+}
+
+
+.container-fluid {
+    align-content: center; 
+    height: 800px; 
+
+}
+
+.carousel {
+    margin: 0px; 
+    border: 0px; 
+    position: center; 
+}
+
+
+.nav-link:hover{
+    color: yellow; 
+    background-color: #913374; 
+}
+
+footer {
+    color: red;
 }
 
